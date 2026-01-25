@@ -36,3 +36,5 @@ Accuracy на тесте: 82%
 Технологии
 Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn), Jupyter Notebook
 Метрики: accuracy, precision, recall, F1-score
+
+Позже улучшил модель и добился прирост метрик по классу "N" на 30%
