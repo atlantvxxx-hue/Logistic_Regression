@@ -37,3 +37,13 @@ Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn), Jupyter Notebook
 Метрики: accuracy, precision, recall, F1-score
 
 P.s Улучшил модель, добавив балансировку с помощью комбинации undersampling и oversampling. Показатель по категории "N" на тестовой выборке увеличились с 0.55 до 0.68 (+=21%).
+
+
+Logistic Regression
+The project is dedicated to the analysis of a dataset on loan applications and the prediction of their approval using machine learning methods. It includes the stages of data preprocessing, exploratory analysis, and building a basic logistic regression model.
+
+Data The "Eligibility Prediction for Loan" dataset from Kaggle is used, which contains 614 records and 13 features: Loan_ID – unique customer ID Demographic features: Gender, Married, Dependents, Education, Self_Employed Financial features: ApplicantIncome, CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History Property_Area – type of area (urban/rural) Target: Loan_Status (Y/N)
+
+Main stages of the project
+
+Data preprocessing Feature distribution analysis Feature splitting into types: Binary: Gender, Married, Education, Self_Employed, Credit_History Categorical: Dependents, Property_Area Numerical:ApplicantIncome, CoapplicantIncome, LoanAmount, Loan_Amount_Term Visualization Missing values encoding Standardization and OneHotCodding
